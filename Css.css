@@ -1,0 +1,37 @@
+body{
+    background: linear-gradient(to right, black, darkblue,
+purple, darkmagenta, darkred);
+    color: whitesmoke;
+}
+
+.container {
+    top: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.botoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    color: BLUE;
+}
+
+.logopp{
+    margin-top: 5px;
+
+}
+.Davi{
+    size: 05%;
+    display: flex;
+}
+h1{
+    right: 25px;
+}
+strong{
+    color: rgb(0, 0, 0);
+}
