@@ -1,36 +1,43 @@
 body{
-    background: linear-gradient(to right, black, darkblue,
-purple, darkmagenta, darkred);
+    background: linear-gradient(to right,#6312CB,
+#15023E, #4D0068);
     color: whitesmoke;
+    display: flex;
 }
 
-.container {
-    top: 50%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 30px;
+.Container {
+    display: grid;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 20px;
+    border: none;
 }
 
 .botoes{
-    display: flex;
+    display: center;
     justify-content: center;
+    justify-items: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 30px;
-    color: BLUE;
+    gap: 90px;
+    background-color: #000000;
+    border: none;
 }
 
-.logopp{
-    margin-top: 5px;
-
-}
-.Davi{
-    size: 05%;
+.logo{
+    justify-items: start;
+    justify-content: left;
+    margin-top: 20px;
     display: flex;
 }
+.davi{
+    display: block;
+    
+}
 h1{
-    right: 25px;
+    margin-top: 40%;
+    vertical-align:top;
+    justify-content: center;
 }
 strong{
     color: rgb(0, 0, 0);
